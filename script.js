@@ -1,7 +1,7 @@
 let time = 5000,
     currentImageIndex=0,
     images = document
-                .querySelectorAll("#cartaz-prinipal img")
+                .querySelectorAll("#cartaz img")
     max = images.length;
 function nextImage(){
     
