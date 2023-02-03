@@ -15,4 +15,6 @@ function nextImage(){
 
     images[currentImageIndex]
         .classList.add("cartaz")
-}
+
+
+    }
