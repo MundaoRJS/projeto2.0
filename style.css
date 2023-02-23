@@ -37,6 +37,10 @@ header{
     list-style: none;
     margin: auto;
 }
+#cabecalho > nav > #lista-cabecalho > li > a > img{
+    width: 20px;
+    height: 20px;
+}
 #pesq-bar >nav{
     width: 100vw;
     background-color: rgb(255, 255, 255);
@@ -93,12 +97,61 @@ display: flex;
 padding: 10px;
 
 }
+#forme-tot >form > button{
+    margin: 0;
+    border: none;
+    width: 100px;
+    position: relative;
+    top:35%;
+    left: 40%;
+    height: 50px;
+    background-color: rgb(51, 191, 230);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.452);
+    cursor: pointer;
+}
+
+#forme-tot{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 219, 219, 0.788);
+}   
+form{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(250, 242, 242);
+    padding: 15px; 
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);   
+}
+
+input,textarea{
+    width: 100%;
+    border: none;
+    min-width: 300px;
+    outline:none ;
+    border-bottom: 1px solid rgb(104, 222, 243); 
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.319);
+     
+}
+.row{
+    position: relative;
+    top:30%;
+    left: 0%;
+}
+#forme-tot > form> h1{
+    text-align: center;
+    color: rgb(127, 127, 123);
+}
 
 
 @media(max-width:690px){
-    #destaques{
-        background-image: url(img/png-transparent-button-computer-icons-menu-options-blue-angle-rectangle.png);
-    }
 
     #form-tot{
         height: 100vh;
